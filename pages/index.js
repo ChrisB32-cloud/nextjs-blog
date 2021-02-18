@@ -24,7 +24,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>[My name is Chris Brown]</p>
-        <Link href='/posts/first-post'><a>My First Next.js Page</a></Link>
+        {/* <Link href='/posts/first-post'><a>My First Next.js Page</a></Link> */}
         <p>
           (This is my website - I'll be building a site like this {' '}
           <a href="https://nextjs.org/learn">using the Next.js Framework </a>.
